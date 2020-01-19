@@ -11,7 +11,7 @@ import mysql.connector
 import time
 try:
     while True:
-        connection = mysql.connector.connect(host='34.82.183.200', database='Hackathon', user='id12288837_root', password='435566')
+        connection = mysql.connector.connect(host='localhost', database='Hackathon', user='root', password='')
         login_email = 'classnotifier123@gmail.com'
         passwd = 'ritikaeatingfalafel' 
 
